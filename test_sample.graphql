@@ -1,0 +1,29 @@
+query {
+  products {
+    _id
+    name
+  }
+  locations {
+    _id
+    name
+  }
+  verticals {
+    _id
+    name
+  }
+  availabilityItems {
+    _id
+    product {
+      _id
+    }
+    location {
+      _id
+    }
+    vertical {
+      _id
+    }
+    quantity
+    startDate
+    endDate
+  }
+}
